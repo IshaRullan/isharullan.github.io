@@ -1,0 +1,32 @@
+*{
+	font-family: sans-serif;
+}
+
+#home img{
+	height: 250px;
+	width: 250px;
+	}
+
+#home h5{
+	order-width: 3px !important; 
+	font-style: open-sans, sans-serif;
+	border-color: #EE92C2 !important;
+}
+
+#home h6{
+	font-size: small;
+}
+
+#home{
+	padding-top: 20vh;
+	padding-bottom: 20vh;
+	height: calc(100vh - 58px);
+}
+
+#navbar{
+	background: #826251;
+}
+
+.nav-link{
+	color: #EE92C2 !important;
+}
