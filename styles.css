@@ -1,5 +1,10 @@
 *{
 	font-family: sans-serif;
+	color: #696969;
+}
+
+body{
+	background-color: #DCDCDC;
 }
 
 #home img{
@@ -8,6 +13,7 @@
 	}
 
 #home h5{
+	font-style: !important;
 	order-width: 3px !important; 
 	font-style: open-sans, sans-serif;
 	border-color: #EE92C2 !important;
@@ -24,9 +30,61 @@
 }
 
 #navbar{
-	background: #826251;
+	background: #dea5a4;
 }
 
 .nav-link{
-	color: #EE92C2 !important;
+	color: #826251 !important;
+}
+
+#digital{
+	height: 400px;
+	width: 300px;
+}
+
+#film{
+	height: 300px;
+	width: 500px;
+
+}
+
+#project{
+	/*height: 100vh*/
+}
+
+#gallery #photos{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#film_gallery{
+	height: 300px;
+	width: 500px;
+	text-align: center;
+}
+
+#gallery img{
+	ima
+}
+
+#digital_gallery{
+	height: 400px;
+	width: 300px;
+	text-align: center;
+}
+
+#contacts{
+	background-color:#dea5a4;
+}
+
+#footer{
+	background-color: #826251 !important;
+}
+
+input:focus, textarea:focus{
+	outline: none !important;
+    border:1px solid red;
+    box-shadow: 0 0 10px #719ECE;
+
 }
